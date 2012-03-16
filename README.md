@@ -7,7 +7,7 @@ average for that business.
 ## Usage
 
     $ source venv/bin/activate
-    $ gzcat yelp_academic_dataset.json.gz | python simple-model-generator.py > hypothesis.py
+    $ zcat yelp_academic_dataset.json.gz | python simple-model-generator.py > hypothesis.py
     $ python simple-model.py < test_reviews.json > hypothesis.json
     $ curl -Fhypothesis=@hypothesis.json http://floating-spring-4122.herokuapp.com/rmse
 

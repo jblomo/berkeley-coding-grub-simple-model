@@ -9,7 +9,7 @@ average for that business.
     $ source venv/bin/activate
     $ zcat yelp_academic_dataset.json.gz | python simple-model-generator.py > hypothesis.py
     $ python simple-model.py < test_reviews.json > hypothesis.json
-    $ curl -Fhypothesis=@hypothesis.json http://floating-spring-4122.herokuapp.com/rmse
+    $ curl -Fhypothesis=@hypothesis.json http://yelp-csua-coding.herokuapp.com/rmse
 
 ## Resources
 
@@ -17,7 +17,7 @@ http://www.yelp.com/academic_dataset
 
 test_reviews.json available to Berkeley students during the competition
 
-To test results http://floating-spring-4122.herokuapp.com/rmse
+To test results http://yelp-csua-coding.herokuapp.com/rmse
 
 ## License
 

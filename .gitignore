@@ -2,3 +2,5 @@ venv
 *.pyc
 *.swp
 hypothesis.py
+hypothesis.json
+yelp_academic_dataset.json*

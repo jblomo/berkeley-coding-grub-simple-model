@@ -6,7 +6,9 @@ average for that business.
 
 ## Usage
 
+    $ virtualenv venv
     $ source venv/bin/activate
+    $ pip install -r requirements.txt
     $ zcat yelp_academic_dataset.json.gz | python simple-model-generator.py > hypothesis.py
     $ python simple-model.py < test_reviews.json > hypothesis.json
     $ curl -Fhypothesis=@hypothesis.json http://yelp-csua-coding.herokuapp.com/rmse
